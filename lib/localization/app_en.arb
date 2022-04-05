@@ -5,5 +5,7 @@
   },
   "url" : "URL",
   "username" : "Username",
-  "search": "Search in URL"
+  "search": "Search in URL",
+  "no_pass" : "No passwords added, add one now!",
+  "error_pass" :  "There has been an error reading your data"
 }

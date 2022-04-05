@@ -5,5 +5,7 @@
   },
   "url" : "Adresa",
   "username" : "Uživatelské jméno",
-  "search": "hledat v Adresách"
+  "search": "Hledat hesla skrz adresy",
+  "no_pass" : "Žádný záznam nalezen, přidejte ho!",
+  "error_pass" :  "Chyba při načítání dat"
 }

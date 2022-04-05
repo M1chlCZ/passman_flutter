@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
               scale: 0.1,
             ),
           ),
-          title: const Text("Password Manager"),
+          title: const Text("PassMan"),
           actions: [
             IconButton(
                 onPressed: () {
@@ -90,9 +90,9 @@ class _HomePageState extends State<HomePage> {
                         );
                       case Status.completed:
                         if (snapshot.data!.data!.isEmpty) {
-                          return const Center(child: Text(
-                              "No passwords added, add one now!",
-                              style: TextStyle(color: Colors.blue)));
+                          return Center(child: Text(
+                              AppLocalizations.of(context)!.no_pass,
+                              style: const TextStyle(color: Colors.blue)));
                         } else {
                           return ListView.builder(
                               itemCount: snapshot.data!.data!.length,
@@ -104,10 +104,10 @@ class _HomePageState extends State<HomePage> {
                               });
                         }
                       case Status.error:
-                        return const Center(
+                        return Center(
                           child: Text(
-                            "There has been an error reading your data",
-                            style: TextStyle(color: Colors.red),
+                            AppLocalizations.of(context)!.error_pass,
+                            style: const TextStyle(color: Colors.red),
                           ),
                         );
                     }
