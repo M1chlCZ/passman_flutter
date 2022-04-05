@@ -1,0 +1,9 @@
+{
+  "appTitle": "Password Manager",
+  "@appTitle": {
+    "description": "Password Manager"
+  },
+  "url" : "URL",
+  "username" : "Username",
+  "search": "Search in URL"
+}

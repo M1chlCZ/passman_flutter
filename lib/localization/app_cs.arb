@@ -1,0 +1,9 @@
+{
+  "appTitle": "Password Manager",
+  "@appTitle": {
+    "description": "Password Manager"
+  },
+  "url" : "Adresa",
+  "username" : "Uživatelské jméno",
+  "search": "hledat v Adresách"
+}
